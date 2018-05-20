@@ -1,0 +1,34 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/all.suite.js",
+    "test_unit": "mocha tests/unit.suite.js",
+    "test_integration": "mocha tests/integration.suite.js",
+    "lint": "eslint . || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/lmshaffe/rest_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmshaffe/rest_api/issues"
+  },
+  "homepage": "https://github.com/lmshaffe/rest_api#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.17.1",
+    "microservice_core": "git+ssh://git@github.com/lmshaffe/microservice_core.git"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-things": "^0.2.0",
+    "mocha": "^4.0.1",
+    "node-mocks-http": "^1.6.6",
+    "sinon": "^4.1.2"
+  }
+}
